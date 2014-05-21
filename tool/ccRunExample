@@ -1,5 +1,7 @@
 #!/bin/bash -aeu
 
+#set the segment no in the output script
+
 HDFS_LOCAL_HOSTNAME="localhost"
 MAIN_JAR="ccparc-1.0.0.jar"
 EXAMPLES_PATH="src/ccparc/main"
