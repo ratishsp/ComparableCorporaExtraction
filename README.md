@@ -1,12 +1,5 @@
-# Common Crawl Miner
+This tool is an extension to CommonCrawlMiner at https://github.com/jrs026/CommonCrawlMiner/
+It contains support for Indian Languages.
+It contains couple of bug fixes too.
 
-This is a tool for mining parallel web pages from the CommonCrawl data hosted on
-AWS. It is based on the CommonCrawl example codebase:
-
-https://github.com/commoncrawl/commoncrawl-examples
-
-This was developed during the 2012 Machine Translation Marathon by:
-
-Herve Saint-Amand (herve@saintamh.org)
-Magdalena Plamada (plamada@cl.uzh.ch)
-Jason Smith (jrs026@gmail.com)
+For any queries reach out to ratish123@gmail.com
