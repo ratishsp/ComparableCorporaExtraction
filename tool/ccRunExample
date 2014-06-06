@@ -152,7 +152,7 @@ if [ "${RUN_TYPE}" = "AmazonEMR" ]; then
     --jar "s3n://${EMR_JAR_PATH}/${MAIN_JAR}" --step-name "Run_${EXAMPLE}" \
     --log-uri "s3n://${EMR_LOG_PATH}" \
     --main-class "ccparc.main.MiningTest" --verbose \
-    --access-id "AKIAJHIAN7SOHRCAJW5Q" --private-key "JPGoOKQQOiPCwCgYtQ9Jrsf/7KW/+wzURYwNYRMF" \
+    --access-id "${AWS_ACCESS_ID}" --private-key "${AWS_SECRET_KEY}" \
     --key-pair-file /home/arya/Downloads/parallelcorpora.pem \
     --arg "-Dmapreduce.job.split.metainfo.maxsize=-1" \
     --arg "s3n://${EMR_OUTPUT_PATH}" \
